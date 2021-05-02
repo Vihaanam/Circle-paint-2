@@ -3,6 +3,7 @@ body {
     background-image: url("bg1.jpg");
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
 h1 {
     font-size: 40px;

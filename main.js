@@ -1,13 +1,16 @@
+document.getElementById("input_colour").defaultValue = "black";
+document.getElementById("input_radius").defaultValue = "40";
+document.getElementById("input_width").defaultValue = "1";
 canvas = document.getElementById("myCanvas");
 ctx = canvas.getContext("2d");
 colour = "black";
 width = 1;
 radius = 40;
-mouse_event = "";
+mouse_event = "empty";
 width = screen.width;
 height = screen.height;
 new_width = screen.width - 70;
-new_height = screen.height - 300;
+new_height = screen.height - 350;
 if (width < 992) {
     document.getElementById("myCanvas").width = new_width;
     document.getElementById("myCanvas").height = new_height;
